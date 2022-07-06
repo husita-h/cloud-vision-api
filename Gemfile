@@ -1,7 +1,10 @@
 # frozen_string_literal: true
 
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
-gem "google-api-client"
+gem 'google-api-client'
+gem 'rubocop'
+
+gem "google-cloud-vision", "~> 1.1"
